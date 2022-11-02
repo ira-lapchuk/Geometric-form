@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.bord {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(226, 226, 108);
+    flex-direction: column;
+    padding-left: 30px;
+}
+  
+#h1-id {
+    color: white;
+    font-size: 38px;
+}
+  
+.content {
+    width: 110px;
+    height: 30px;
+    display: inline-block;
+    color: gray
+  }
+  
+.input {
+    display: inline-block;
+    height: 50px;
+}
+
+div {
+    display: flex;
+    margin: 2px;
+}
+
+.content-button {
+    display: inline-block;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.shape {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+} 
