@@ -12,11 +12,15 @@
         <h1 id="h1-id">My element style</h1>
         <div>
           <label class="content">Background color:</label>
-          <input id="bgd-color" class="style-input"></input>
+          <button id="bkg-red" class="button-bkg-red" onclick="showRed()"></button>
+          <button id="bkg-blue" class="button-bkg-blue" onclick="showBlue()"></button>
+          <button id="bkg-green" class="button-bkg-green" onclick="showGreen()"></button>
         </div>
         <div>
           <label class="content">Border color:</label>
-          <input id="br-color" class="style-input"></input>
+          <button id="brd-red" class="button-brd-red" onclick="showBorderRed()"></button>
+          <button id="brd-blue" class="button-brd-blue" onclick="showBorderBlue()"></button>
+          <button id="brd-green" class="button-brd-green" onclick="showBorderGreen()"></button>
         </div>
         <div>
           <label class="content">Border radius:</label>
@@ -27,7 +31,7 @@
           <input id="br-w" class="style-input"></input>
         </div>
         <div>
-        <button class="content-button" onclick="showResult()">Show results</button>  
+        <button class="button-result" onclick="showResult()">Show results</button>  
         </div>
     </div>
       <script src="script.js"></script>

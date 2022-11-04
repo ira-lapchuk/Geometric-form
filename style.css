@@ -25,10 +25,40 @@ body {
     display: inline-block;
     color: gray
   }
-  
+ 
+.button-bkg-red {
+    width: 49px;
+    background-color: red;
+}
+
+.button-bkg-blue {
+    width: 49px;
+    background-color: blue;
+}
+
+.button-bkg-green {
+    width: 49px;
+    background-color: green;
+}
+
+.button-brd-red {
+    width: 49px;
+    background-color: red;
+}  
+
+.button-brd-blue {
+    width: 49px;
+    background-color: blue;
+}
+
+.button-brd-green {
+    width: 49px;
+    background-color: green;
+}
+
 .input {
     display: inline-block;
-    height: 50px;
+    height: 49px;
 }
 
 div {
@@ -36,7 +66,7 @@ div {
     margin: 2px;
 }
 
-.content-button {
+.button-result {
     display: inline-block;
     margin-top: 10px;
     height: 40px;
